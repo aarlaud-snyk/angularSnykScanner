@@ -1,7 +1,7 @@
 {
   "name": "",
   "version": "1.0.0",
-  "description": "Dummy package.json for custom mindsphere integration",
+  "description": "Dummy package.json",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,6 @@
   "author": "Antoine@snyk.io",
   "license": "MIT",
   "dependencies": {
-    
+
   }
 }
