@@ -4,7 +4,9 @@
   "description": "Custom program to extract dependencies from angular packaged apps and check for vulns with Snyk service.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Antoine@snyk.io",
   "license": "MIT",
@@ -12,6 +14,8 @@
     "axios": "^0.18.0",
     "is-relative": "^1.0.0",
     "minimist": "^1.2.0",
-    "rimraf": "^2.6.2"
-  }
+    "rimraf": "^2.6.2",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
