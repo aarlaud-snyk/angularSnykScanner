@@ -9,7 +9,7 @@
   "author": "Antoine@snyk.io",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "is-relative": "^1.0.0",
     "minimist": "^1.2.0",
     "rimraf": "^2.6.2"
